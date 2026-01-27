@@ -8,6 +8,5 @@ public class Exam5 {
 
         System.out.println(shopCart.getTotalPrice());
         System.out.println(shopCart.getAveragePrice());
-
     }
 }

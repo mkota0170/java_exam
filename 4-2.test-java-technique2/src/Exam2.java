@@ -10,7 +10,7 @@ public class Exam2 {
         name.add("佐藤");
         name.add("田中");
 
-        name.remove(1);
+        name.remove(0);
 
         for(String names : name){
             System.out.println(names);
