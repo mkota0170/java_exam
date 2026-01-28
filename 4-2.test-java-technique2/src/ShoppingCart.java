@@ -1,21 +1,17 @@
-import java.util.ArrayList;
 import java.util.LinkedList;
-import java.util.List;
-
 public class ShoppingCart extends LinkedList<Item>{
     
-    List<Item> item = new ArrayList<>();
+    //List<Item> item = new ArrayList<>();
 
     public int getTotalPrice(){
         int total=0;
-        for(Item cart : item){
+        for(Item cart : this){
             total = total + cart.getPrice();
         }
         return total;
     }
 
     public int getAveragePrice(){
-        return getTotalPrice()/item.size();
+        return getTotalPrice()/this.size();//this-->item
     }
-
-}
+    }

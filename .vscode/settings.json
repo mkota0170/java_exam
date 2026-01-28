@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": [
+        "4-2.test-java-technique2/src",
+        "7-1.test-dbaccess/7-1.test-dbaccess/src"
+    ],
+    "java.project.referencedLibraries": [
+        "/home/kotaro/src/java/java-basic/lib/postgresql-42.7.9.jar"
+    ]
+}
