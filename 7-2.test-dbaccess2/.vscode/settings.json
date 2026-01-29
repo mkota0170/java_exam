@@ -1,0 +1,8 @@
+{
+    "java.project.sourcePaths": [
+        "7-2.test-dbaccess2/src"
+    ],
+    "java.project.referencedLibraries": [
+        "7-2.test-dbaccess2/lib/postgresql-42.7.1.jar"
+    ]
+}
