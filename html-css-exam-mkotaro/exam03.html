@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/register">
+        <label>
+        <h1>会員登録フォーム</h1>
+        <ul>
+            <li>
+                名前：<input type="text">
+            </li>
+            <li>
+                メールアドレス：<input type="text">
+            </li>
+            <li>
+                性別：
+                <input type="radio" id="huey" name="drone" value="otoko"/>
+                <label for="otoko">男</label>
+
+                <input type="radio" id="huey" name="drone" value="onna" />
+                <label for="onna">女</label>
+            </li>
+            <li>
+                生年月日：
+                <select name="years" id="year">
+                    <option value="defY" selected>----</option>
+                    <option value="90">1990</option>
+                    <option value="91">1991</option>
+                    <option value="92">1992</option>
+                    <option value="93">1993</option>
+                    <option value="94">1994</option>
+                    <option value="95">1995</option>
+                    <option value="96">1996</option>
+                    <option value="97">1997</option>
+                    <option value="98">1998</option>
+                    <option value="99">1999</option>
+                    <option value="00">2000</option>
+                </select>
+                月：
+                <select name="months" id="month">
+                    <option value="defM" selected>--</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    
+                </select>
+                日：
+                <select name="days" id="day">
+                    <option value="defD" selected>--</option>
+                    <option value="d1">1</option>
+                    <option value="d2">2</option>
+                    <option value="d3">3</option>
+                    <option value="d4">4</option>
+                    <option value="d5">5</option>
+                    <option value="d6">6</option>
+                    <option value="d7">7</option>
+                    <option value="d8">8</option>
+                    <option value="d9">9</option>
+                    <option value="d10">10</option>
+                    <option value="d11">11</option>
+                    <option value="d12">12</option>
+                    <option value="d13">13</option>
+                    <option value="d14">14</option>
+                    <option value="d15">15</option>
+                    <option value="d16">16</option>
+                    <option value="d17">17</option>
+                    <option value="d18">18</option>
+                    <option value="d19">19</option>
+                    <option value="d20">20</option>
+                    <option value="d21">21</option>
+                    <option value="d22">22</option>
+                    <option value="d23">23</option>
+                    <option value="d24">24</option>
+                    <option value="d25">25</option>
+                    <option value="d26">26</option>
+                    <option value="d27">27</option>
+                    <option value="d28">28</option>
+                    <option value="d29">29</option>
+                    <option value="d30">30</option>
+                    <option value="d31">31</option>
+                </select>
+            </li>
+
+            <li>
+                <button type="submit">送信</button>
+                <button type="reset">リセット</button>
+            </li>
+        </ul>
+        </label>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+header{
+    height: 50px;
+    width: 400px;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.section1{
+    background-color: pink;
+}
+.section2{
+    background-color: blue;
+}
+.main{
+    background-color: yellow;
+}
+
+footer{
+    height: 50px;
+    width: 400px;
+    background-color: purple;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+span{
+    height: 80px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+

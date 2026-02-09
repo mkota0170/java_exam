@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+ul{
+    list-style: none;
+    padding: 0;
+    color: white;
+}
+
+li{
+    margin: 5px;
+    width: 130px;
+}
+
+.one{
+    background-color: red;
+    
+}
+
+.two{
+    background-color: green;
+
+}
