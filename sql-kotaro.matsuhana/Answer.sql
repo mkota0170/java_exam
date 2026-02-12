@@ -11,7 +11,7 @@ UPDATE items set price = price * 0.9
 DELETE FROM employees WHERE end_date <= '2013-3-31';
 
 問題４
-SELECT name ,start_date, end_date FROM employees WHERE end_date > start_date  ORDER BY start_date LIMIT 1;
+SELECT name ,start_date, end_date FROM employees WHERE end_date IS NULL  ORDER BY start_date LIMIT 1;
 
 問題５
 SELECT r.name , p.name FROM prefectures AS p INNER JOIN regions AS r ON r.code = p.region_code
