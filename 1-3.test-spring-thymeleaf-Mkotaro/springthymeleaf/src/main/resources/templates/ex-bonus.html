@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,tr,td{
+            border: 1px solid;
+        }
+    </style>
+</head>
+<body>
+    <table class="table">
+        <tr th:each="group : ${groupList}">
+            <td th:each="member : ${group}" th:text="${member}"></td>
+        </tr>
+    </table>
+    
+</body>
+</html>
