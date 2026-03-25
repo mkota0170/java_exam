@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <p id="name" style="color: black;">松花虎太郎</p>
+  <button id="namecolor">名前の色を赤にする</button><br>
+
+
+  年齢：<input type="text" id="inputAge"><br>
+  <button id="displayAge">入力された年齢をアラート表示</button>
+
+
+  <button id="cantPush">二度と押せません</button>
+
+  <select name="selectList" id="selectList">
+    <option value="def" selected>初期表示</option>
+    <option value="Java">Java</option>
+    <option value="JavaScript">JavaScript</option>
+  </select>
+  <p id="Java" style="display: none;">System.out.println("Hello World");</p>
+  <p id="JavaScript" style="display: none;">console.log("Hello World");</p>
+
+  <script src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="./test.js"></script>
+</body>
+
+</html>
